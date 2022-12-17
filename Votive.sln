@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31702.278
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33209.295
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "v3schemas", "src\Schemas\v3\v3schemas.csproj", "{D0DD12D1-3455-43A9-9173-E465DA045897}"
 EndProject
@@ -356,5 +356,10 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {941168AA-A04E-4C85-A15C-78235363C164}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\votive.shared\votive.shared.projitems*{24a98296-9d58-42c1-95c0-cc36736409e2}*SharedItemsImports = 4
+		src\votive.shared\votive.shared.projitems*{29a5bbf6-aedb-4867-92f6-c0f560f3aabf}*SharedItemsImports = 4
+		src\votive.shared\votive.shared.projitems*{72a14880-ec19-43b4-a4f0-dc9ddae2c763}*SharedItemsImports = 13
 	EndGlobalSection
 EndGlobal

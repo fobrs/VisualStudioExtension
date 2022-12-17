@@ -7,7 +7,6 @@
     <AssemblyName>Votive2013</AssemblyName>
     <!--- Signing only signs SHA2 and VS2013 does not support SHA2 so no signing -->
     <ShouldSignOutput>false</ShouldSignOutput>
-
     <CopyBuildOutputToOutputDirectory>false</CopyBuildOutputToOutputDirectory>
     <CopyOutputSymbolsToOutputDirectory>false</CopyOutputSymbolsToOutputDirectory>
     <IncludeAssemblyInVSIXContainer>false</IncludeAssemblyInVSIXContainer>
@@ -37,13 +36,16 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.Build.Tasks.Core">
+      <Version>17.4.0</Version>
+    </PackageReference>
     <PackageReference Include="Microsoft.VSSDK.BuildTools">
-      <Version>14.3.25420</Version>
+      <Version>17.4.2119</Version>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Nerdbank.GitVersioning">
-      <Version>2.2.33</Version>
+      <Version>3.5.119</Version>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
